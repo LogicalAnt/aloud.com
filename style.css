@@ -1,0 +1,121 @@
+.message
+{
+    position: fixed;
+    display:inline-block;
+    margin-left: 5px;
+    color:#8c8c8c;
+
+}
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.navbar-default {
+    background-color: #CBE8BA;
+    border-color: #CBE8BA;
+	overflow:hidden;
+}
+.icon img {
+     margin-top: 5px;
+     margin-bottom: 5px; 
+     float: left;
+     left: 15%;
+     width: 40%;
+    /*height: 10%;*/
+  /*overflow:hidden;*/
+	
+}
+.navbar-left {
+    float: right !important;
+}
+.btn-default {
+    color: #FFF9F9;
+    background-color: #65396E;
+    border-color: #ccc;
+}
+.btn-default:hover {
+    color: #333;
+    background-color: rgba(32, 141, 11, 0.82);
+    border-color: #adadad;
+}
+.text h3 {
+	
+	text-align:center;
+	font-size:15 px;
+	font-family:tahoma;
+	font-weight:bold;
+	font-style:none;
+	line-height:none;
+	overflow:hidden;
+	margin-top: -13px;
+	}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+   
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 2px 5px;
+}
+.navbar-nav > li {
+    float:none;
+}
+
+.media:first-child {
+    margin-top: 56px;
+}
+ .media-middle img {
+    vertical-align: middle;
+margin-top: -170%
+}
+  .media-heading a {
+    color: #33b74c;
+} 
+.footer-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #537341;
+}
+span {
+	padding-right:18px;
+}
+.footer-right {
+	overflow:none; margin-top: -40px; font-size: 27px;"
+
+}
+@media (max-width: 1150px){
+	
+	
+.footer-right {
+    margin-top: -9px;
+    font-size: 27px;
+    margin-right: 211px;
+	margin-left: 24px;
+}
+	.footer-company-motto {
+    color: #537341;
+    font-size: 24px;
+    margin-right: 21%;
+}
+@media (max-width:1149px){
+	
+	.footer-company-motto {
+    color: #537341;
+    font-size: 24px;
+    margin-right: 20%;
+}
+}
+.name h1{
+	
+	font-size:18px;
+}
+

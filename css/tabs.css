@@ -1,0 +1,89 @@
+@import url('normalize.css');
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+
+.tabset {
+    max-width: 500px;
+    margin: 10px auto;
+    -moz-box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .15);
+    -webkit-box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .15);
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .15);
+    
+}
+ul.ez_tabs {
+    margin: 0;
+    padding: 0;
+    height: 31px;
+    border-bottom: 1px solid #ccc;
+
+
+}
+ul.ez_tabs li {
+    display: block;
+    float: left;
+    text-align: center;
+    color: #777;
+    font-weight: 600;
+    padding: 0 8px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    cursor: pointer;
+    background: #ffffff;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);    
+  	background: -webkit-linear-gradient(#ffffff 0%, #e5e5e5 100%);
+  	background: -o-linear-gradient(#ffffff 0%, #e5e5e5 100%);
+  	background: linear-gradient(#ffffff 0%, #e5e5e5 100%);    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
+}
+ul.ez_tabs li.active {
+    color: #111;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+.ez_content {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+article {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #222;
+    background: #fff;
+}
+article ul {
+    margin: 0;
+}
+article p,
+article ul li {
+    line-height: 1.5;
+    margin: 0;
+}
+article p {
+    text-align: justify;
+}
+
+/* Full width tabs */
+
+ul.ez_tabs.fullwidth {
+    display: flex;
+}
+ul.ez_tabs.fullwidth li {
+    -webkit-flex: 1; 
+    -ms-flex: 1;    
+    flex: 1;
+}

@@ -24,9 +24,11 @@
 						  
 						  
 						  <ul class="nav navbar-nav navbar-right">
+							<li><a href="#"><?php echo $_SESSION['uname']?></a></li>
 							<li><a href="login.php">Login</a></li>
 							<li><a href="logout.php">Logout</a></li>
 							<li><a href="register.php">sign up</a></li>
+
 							
 						  </ul>
 

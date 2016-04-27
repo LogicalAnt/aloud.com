@@ -4,7 +4,7 @@
 
 			<ul class="ez_tabs">
 				<li>Top post</li>
-				<li>Mos viewed</li>
+				<li>Most viewed</li>
 			</ul>
 		<div class="ez_content">
 

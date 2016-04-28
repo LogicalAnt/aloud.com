@@ -4,7 +4,7 @@
 	
 	if(empty($_POST)==false)
 	{
-		$uname= $_POST['username'];
+		$uname= mysqli_real_escape_string($con,$_POST['username']);
 		$pass = $_POST['password'];
 		$_SESSION['status']="";
 	}
@@ -22,12 +22,13 @@
 	}
 	
 	//invalid user
-	else if($row[0]==NULL) 
+	else if($row[0]==NULL || $uname!=$row[1]) 
 	{
 		
 		if(empty($_POST)==true)$_SESSION['status']="";
 		else $_SESSION['status']="user not exist";
 		//header("location: login.php");
+		
 	}
 	
 	//valid user

@@ -1,3 +1,23 @@
+/*change by unreleased01*/
+
+.list{
+
+     display: inline;
+     float: right;
+     color:  #0d3300;
+}
+
+h4{
+    color:  #00004d;
+}
+
+
+.user{
+    color: #00B866;
+    font-size: 18px;
+}
+/*change by unreleased01*/
+
 .message
 {
     position: fixed;
@@ -79,7 +99,10 @@ margin-top: -170%
 }
   .media-heading a {
     color: #33b74c;
+
 } 
+
+
 .footer-links a {
     display: inline-block;
     text-decoration: none;

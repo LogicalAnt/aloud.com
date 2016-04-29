@@ -1,3 +1,3 @@
 # aloud.com
 
-[x]pagination system
+[X]pagination system

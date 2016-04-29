@@ -1,5 +1,5 @@
 # aloud.com
-<strong> <u>Functionalities</u> </strong>
+<strong> Functionalities </strong>
 - [x] pagination system (rough version)
 - [x] login
 - [x] logout
@@ -9,9 +9,8 @@
 - [ ] post view count
 - [ ] user profile 
 - [ ] user search
-- 
 
-<strong> <u>style/ markup </u></strong>
+<strong> style & markup </strong>
 - [x] index page
 - [ ] user profile page
 - [ ] blog post page

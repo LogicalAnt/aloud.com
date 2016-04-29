@@ -1,5 +1,5 @@
 # aloud.com
-<strong> Functionalities </strong>
+<strong> <u>Functionalities</u> </strong>
 - [x] pagination system (rough version)
 - [x] login
 - [x] logout
@@ -8,4 +8,13 @@
 - [ ] dislike
 - [ ] post view count
 - [ ] user profile 
-- [ ] user search 
+- [ ] user search
+- 
+
+<strong> <u>style/ markup </u></strong>
+- [x] index page
+- [ ] user profile page
+- [ ] blog post page
+- [x] user registration
+- [x] tabs(rough)
+- [x] category(rough)

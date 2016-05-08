@@ -9,11 +9,12 @@
 - [ ] post view count
 - [ ] user profile 
 - [ ] user search
+- [ ] post as anonnymous function
 
 <strong> style & markup </strong>
 - [x] index page
 - [ ] user profile page
-- [ ] blog post page
+- [x] blog post page
 - [x] user registration
 - [x] tabs(rough)
 - [x] category(rough)

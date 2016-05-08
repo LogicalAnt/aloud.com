@@ -10,7 +10,8 @@
 		
 				<form class="login"  action="login.php" method="post" >
 	
-					<div style="font-size: 28px; padding-bottom: 5px;" class="formtitle">Member Login</div>
+					<!-- <div style="font-size: 28px; padding-bottom: 5px;" class="formtitle">Member Login</div> -->
+					<h2 class="demo-text">Member login</h2>
 					<p  style="color: red;"> <?php echo $_SESSION['status'];?> </p>
 					
 					<div class="input" style="padding-bottom: 10px;">

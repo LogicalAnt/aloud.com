@@ -37,7 +37,6 @@
 		if($pass==$row[5])
 		{
 			$_SESSION['uname']=$uname;
-		
 			header("location: index.php");
 			
 		}

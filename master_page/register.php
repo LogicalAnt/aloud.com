@@ -13,10 +13,10 @@
 	    	<div class="sign_up"style="text-align:center; " >
 			
 			<form class="sign" action="#" method="post">
-				<div class="formtitle">Sign Up-It's free.</div>
-				
+				<!-- <div class="formtitle">Sign Up-It's free.</div> -->
+				<h2 class="demo-text">Sign up</h2>
 				<div class="bottom-section">
-					<div class="title">Personal Details</div>
+					<!-- <div class="title">Personal Details</div> -->
 				
 
 <p  style="color: red; padding: 2px;"> <?php echo $_SESSION['error'];?> </p>
@@ -319,7 +319,7 @@
 						</form>
 					</div>
 					<div class="submit">
-						<input class="bluebutton submitbotton" type="submit" value="Sign up" />
+						<button type="submit" class="btn btn-default">Submit</button>
 					</div>
 				</div>
 			</form>

@@ -1,0 +1,1 @@
+<?php  include ('master_page/post.php');?>
